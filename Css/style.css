@@ -1,0 +1,131 @@
+
+.skillHeader {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.skillscontent {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    aspect-ratio: 2 / 1;
+}
+
+.skillsetcontentContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.uxskillcontentContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+@media (min-width: 800px) {
+    .skillsetcontentContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .uxskillcontentContainer {
+        width: 50%;
+    }
+}
+
+
+.workHeader {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.workcontent {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    aspect-ratio: 2 / 1;
+}
+
+.flybycontentContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.giftedcontentContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.animalcontentContainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.allprojectcta {
+    padding: 15px 30px;
+    background: #9c868c;
+    color: #fff;
+    line-height: 1;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (min-width: 800px) {
+    .flybycontentContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .giftedcontentContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .animalcontentContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .allprojectcta {
+        width: 50%;
+    }
+}
+
+.allprojectcta:hover {
+    background: #000;
+}
